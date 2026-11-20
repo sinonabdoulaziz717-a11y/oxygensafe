@@ -1,0 +1,184 @@
+{
+  "asset": {
+    "generator": "glTF-Transform v4.5.1",
+    "version": "2.0"
+  },
+  "accessors": [
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 126852,
+      "max": [
+        0.46185302734375,
+        0.94818115234375,
+        0.489990234375
+      ],
+      "min": [
+        -0.461822509765625,
+        0,
+        -0.490081787109375
+      ],
+      "bufferView": 0,
+      "byteOffset": 0
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 126852,
+      "bufferView": 1,
+      "byteOffset": 0
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 126852,
+      "bufferView": 2,
+      "byteOffset": 0
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5125,
+      "count": 599910,
+      "bufferView": 3,
+      "byteOffset": 0
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 1522224,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 1,
+      "byteOffset": 0,
+      "byteLength": 1522224,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 2,
+      "byteOffset": 0,
+      "byteLength": 1014816,
+      "byteStride": 8,
+      "target": 34962
+    },
+    {
+      "buffer": 3,
+      "byteOffset": 0,
+      "byteLength": 2399640,
+      "target": 34963
+    }
+  ],
+  "samplers": [
+    {
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "textures": [
+    {
+      "source": 0,
+      "sampler": 0
+    },
+    {
+      "source": 2,
+      "sampler": 0
+    },
+    {
+      "source": 1,
+      "sampler": 0
+    }
+  ],
+  "images": [
+    {
+      "name": "oxygen+concentrator+3d+model_basecolor.jpg",
+      "mimeType": "image/jpeg",
+      "uri": "oc-basecolor.jpg"
+    },
+    {
+      "name": "oxygen+concentrator+3d+model_rm.jpg",
+      "mimeType": "image/jpeg",
+      "uri": "oc-metal-rough.jpg"
+    },
+    {
+      "name": "oxygen+concentrator+3d+model_normal.png",
+      "mimeType": "image/png",
+      "uri": "oc-normal.png"
+    }
+  ],
+  "buffers": [
+    {
+      "name": "oc-positions",
+      "uri": "oc-positions.bin",
+      "byteLength": 1522224
+    },
+    {
+      "name": "oc-normals",
+      "uri": "oc-normals.bin",
+      "byteLength": 1522224
+    },
+    {
+      "name": "oc-uv",
+      "uri": "oc-uv.bin",
+      "byteLength": 1014816
+    },
+    {
+      "name": "oc-indices",
+      "uri": "oc-indices.bin",
+      "byteLength": 2399640
+    }
+  ],
+  "materials": [
+    {
+      "name": "tripo_material_fecfb78d-2d63-497a-857e-b60e2b3b5cac",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 2
+        }
+      },
+      "normalTexture": {
+        "index": 1
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "meshes[0]",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "mode": 4,
+          "material": 0,
+          "indices": 3
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "tripo_node_fecfb78d-2d63-497a-857e-b60e2b3b5cac",
+      "mesh": 0
+    }
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "scene": 0,
+  "extensionsUsed": [
+    "KHR_materials_volume"
+  ]
+}
